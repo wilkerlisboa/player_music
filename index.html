@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="./public/css/style.css">
+    <!--ICON-->
+    <link rel="shortcut icon" href="./public/Icon/icon_app_two.png" type="image/x-icon">
+    <title>Music</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!--IMAGE OF MUSIC-->
+            <div class="image_of_play"></div>
+            <!--NAME OF MUSIC-->
+            <h1>
+                <P class="name_of_music">Piruka - Fé </P>
+            </h1>
+            <!--MUSIC TIME -->
+            <div class="time_music">
+                <p class="init">00:00</p> 
+                <p class="final">00:00</p>
+            </div>
+            <!--BARRA-->
+            <div class="duracao">
+                <div class="barra">
+                    <progress  value="0" max="1"></progress>
+                    <div class="ponto"></div>
+                </div>
+            </div>
+            <!--BUTÃO-->
+            <div class="buttons_of_init">
+                <div class="play" onclick="playShow()"></div>
+                <div class="pause" onclick="pauseShow()"></div>
+            </div>
+            <!--BUTTONS FOR PASS MUSIC-->
+            <div class="buttons_pass_music">
+                <div class="button_left"></div>
+                <div class="button_right"></div>
+            </div>
+            <!--Button for music-->
+            <div class="button_list_and_button_of_like">
+                <div class="button_for_all_music"></div>
+                <div class="button_like"></div>
+            </div>
+        </header>
+    </div>
+    <!--MUSIC-->
+    <audio src="./public/Music/Piruka - Fé (64 kbps).mp3" id="piruka"></audio>
+
+    
+    <!--SCRIPT-->
+    <script src="./public/js/script.js"></script>  
+</body>
+</html>

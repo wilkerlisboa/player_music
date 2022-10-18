@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: -1%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #970606;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.image_of_play{
+    width: 300px;
+    height: 300px;
+    margin-top: 17%;
+    border-radius: 100%;
+    background-image: url(../Image/Piruka\ -\ fe.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 58px 67px -35px #000000d9;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 14%;
+    color: white;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+}
+.time_music{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    color: white;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.duracao {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra {
+    width: 300px;
+    height: 6px;
+    background: white;
+    border: 2px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 6px;
+    width: 0;
+    background-color:#877c7c;
+}
+
+.ponto {
+    width: 20px;
+    height: 20px;
+    background: #01cdd7;
+    outline: none;
+    transition: opacity .2s;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.buttons_of_init{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16%;
+}
+.play{
+    width: 30px;
+    height: 30px;
+    background: url(../Icon/play.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.pause{
+    width: 30px;
+    height: 30px;
+    display: none;
+    background: url(../Icon/pause.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.buttons_pass_music{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: -10%;
+}
+.button_left{
+    width: 30px;
+    height: 30px;
+    background: url(../Icon/chevrons-left.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.button_right{
+    width: 30px;
+    height: 30px;
+    background: url(../Icon/chevrons-right.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.button_list_and_button_of_like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 9%;
+}
+.button_for_all_music{
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 2px;
+    background: url(../Icon/list.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.button_like{
+    width: 30px;
+    height: 30px;
+    background: url(../Icon/like.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: all .6s ;
+}
+.button_like:hover, .button_like:focus {
+    color: #fff;
+    outline: 0;
+}
+.button_like:hover, .button_like:focus {
+    background: url(../Icon/like-Copia.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: none;
+    box-shadow: 0px 34px 12px -9px white;
+    outline: 0;
+}

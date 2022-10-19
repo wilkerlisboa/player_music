@@ -8,7 +8,12 @@ var playBtn = document.querySelector('.play').addEventListener('click', playShow
 var pauseBtn = document.querySelector('.pause').addEventListener('click', pauseShow);
 
 music_for_pass.addEventListener('timeupdate', barra)
-
+//LIST OF MUSIC
+var list_of_music = {
+  name: "Piruka - Fé",
+  arquivo: "../Music/Piruka - Fé (64 kbps).mp3",
+  image: "../Image/Piruka - fe.jpg",
+}
 // Play audio & mostra pause btn
 function playShow() {
   music_for_pass.play();

@@ -174,3 +174,23 @@ progress {
     box-shadow: 0px 34px 12px -9px white;
     outline: 0;
 }
+/*LIST OF MUSIC*/
+.list{
+    width: 35%;
+    height: 100%;
+    margin-left: -61%;
+    background: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+.musica{
+    margin-top: 10%;
+    color: black;
+    text-decoration: none;
+    padding: 10%;
+    cursor: pointer;
+}

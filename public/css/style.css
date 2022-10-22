@@ -175,7 +175,7 @@ progress {
     outline: 0;
 }
 /*LIST OF MUSIC*/
-section{
+#list{
     width: 35%;
     height: 100%;
     margin-left: -61%;

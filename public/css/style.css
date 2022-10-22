@@ -90,6 +90,7 @@ progress {
 .play{
     width: 30px;
     height: 30px;
+    transition: all 0s;
     background: url(../Icon/play.svg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -160,6 +161,7 @@ progress {
     background-size: cover;
     cursor: pointer;
     transition: all .6s ;
+    border: none;
 }
 .button_like:hover, .button_like:focus {
     color: #fff;

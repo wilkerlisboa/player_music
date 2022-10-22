@@ -193,6 +193,7 @@ progress {
     margin-top: 10%;
     color: black;
     text-decoration: none;
-    padding: 2% 40%;
+    padding: 2% 19%;
     cursor: pointer;
+    width: 250px;
 }

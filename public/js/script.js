@@ -1,5 +1,5 @@
 // Pega o ID do audio
-var podcastAudio = document.getElementById('music_test');
+var podcastAudio = document.getElementById('Fabio');
 
 var music_for_pass = document.getElementById('piruka');
 
@@ -14,6 +14,13 @@ var list_of_music = {
   arquivo: "../Music/Piruka - Fé (64 kbps).mp3",
   image: "../Image/Piruka - fe.jpg",
 }
+//button pass
+function pass_new_music(){
+  podcastAudio.play();
+  document.querySelector('.button_right').style.display = 'block'
+  document.querySelector('.pause').style.display = 'block'
+  document.querySelector('.play').style.display = 'none'
+}
 // Play audio & mostra pause btn
 function playShow() {
   music_for_pass.play();
@@ -23,6 +30,7 @@ function playShow() {
 
 // Pause audio & mostra play btn
 function pauseShow () {
+  
   music_for_pass.pause();
   document.querySelector('.play').style.display = 'block'
   document.querySelector('.pause').style.display = 'none'
